@@ -1,0 +1,1 @@
+This directory contain all my ES6 Basics exercises for Holberton School
