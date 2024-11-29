@@ -1,0 +1,1 @@
+This directory contain all my ES6 data manipulation exercises for Holberton School
