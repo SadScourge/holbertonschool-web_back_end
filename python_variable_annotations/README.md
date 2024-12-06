@@ -1,0 +1,1 @@
+This directory contain all my variable annotations exercises for Holberton School
