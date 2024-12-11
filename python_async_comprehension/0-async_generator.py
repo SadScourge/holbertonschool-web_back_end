@@ -5,9 +5,9 @@ This module contains an asynchronous generator function.
 
 import random
 import asyncio
-from typing import AsyncGenerator
+import typing
 
-async def async_generator() -> AsyncGenerator[float, None]:
+async def async_generator() -> typing.AsyncGenerator[float, None, None]:
     """
     Asynchronous generator that yields a random float between 0 and 10.
 
