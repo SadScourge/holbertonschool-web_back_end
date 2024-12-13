@@ -8,8 +8,7 @@ from pymongo import MongoClient
 def log_stats():
     """Provides some stats about Nginx logs stored in MongoDB."""
     client = MongoClient()
-    db = client.logs
-    collection = db.nginx
+    collection = client.logs.nginx
 
     total_logs = collection.count_documents({})
     print(f"{total_logs} logs")
