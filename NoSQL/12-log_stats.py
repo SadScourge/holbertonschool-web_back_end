@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+""" This module contains the log_stats function """
+
+
 from pymongo import MongoClient
 
 
