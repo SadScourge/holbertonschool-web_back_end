@@ -1,0 +1,1 @@
+This directory contain all my NoSQL exercises for Holberton School

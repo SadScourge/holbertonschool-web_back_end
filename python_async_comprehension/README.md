@@ -1,1 +1,1 @@
-This directory contain all my ES6 python async comprehension exercises for Holberton School
+This directory contain all my python async comprehension exercises for Holberton School

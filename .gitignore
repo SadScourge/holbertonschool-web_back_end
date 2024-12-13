@@ -6,3 +6,6 @@ babel.config.js
 .eslintrc.js
 utils.js
 __pycache__
+dump.zip
+dump/
+*main.py
