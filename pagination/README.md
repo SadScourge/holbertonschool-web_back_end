@@ -1,0 +1,1 @@
+This directory contain all my pagination exercises for Holberton School
