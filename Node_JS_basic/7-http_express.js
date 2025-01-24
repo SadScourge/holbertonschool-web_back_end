@@ -7,10 +7,13 @@ const fs = require('fs');
 const args = process.argv[2];
 
 app.get('/', (request, response) => {
+  response.status(200);
+  response.setHeader('Content-Type', 'text/plain');
   response.send('Hello Holberton School!');
 });
 
 app.get('/students', (request, response) => {
+  response.setHeader('Content-Type', 'text/plain');
   countStudents(args)
     .then((data) => {
       response.send(`This is the list of our students\n${data}`);
