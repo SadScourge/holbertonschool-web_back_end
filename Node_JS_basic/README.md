@@ -1,0 +1,1 @@
+This directory contain all my NodeJS basics exercises for Holberton School

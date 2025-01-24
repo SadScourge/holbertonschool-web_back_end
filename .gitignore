@@ -4,4 +4,3 @@ package-lock.json
 package.json
 babel.config.js
 .eslintrc.js
-utils.js
