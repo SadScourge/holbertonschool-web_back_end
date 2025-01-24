@@ -2,10 +2,10 @@ const fs = require('node:fs');
 
 function countStudents(path) {
   try {
-    data = fs.readFileSync(path, 'utf-8');
+    const data = fs.readFileSync(path, 'utf-8');
 
     const linearray = data.trim().split('\n').filter((line) => line.trim() !== '');
-    number = linearray.slice(1);
+    const number = linearray.slice(1);
     const fields = {};
 
     number.forEach((line) => {
