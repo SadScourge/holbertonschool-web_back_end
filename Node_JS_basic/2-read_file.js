@@ -21,14 +21,11 @@ function countStudents(path) {
             fields[field].push(name);
         });
         console.log(`Number of students: ${number.length}`)
-        for (const field in fields) {
-            if (field) {
-                const list = fields[field];
-                console.log(`Number of students in ${field}: ${list.length}. List: ${list.join(', ')}`);
-            }
-        }
+        for (const [field, name] of Object.entries(fields)) {
+            console.log(`Number of students in ${field}: ${name.length}. List: ${name.join(', ')}`);
+          }
     }
-    catch {
+    catch (error) {
         throw new Error("Cannot load the database")
     }
 }
